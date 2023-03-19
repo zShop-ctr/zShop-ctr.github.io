@@ -1,2 +1,1 @@
-# zShop GitHub Repository
-Files required to get the zShop to run. No games are present on this site.
+![logo](https://github.com/zShop-ctr/zShop-ctr.github.io/blob/main/img/logo.png?raw=true)
