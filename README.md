@@ -48,6 +48,14 @@ It is indeed possible. All you need is to download [this file,](https://drive.go
 
 ![qr](https://github.com/zShop-ctr/zShop-ctr.github.io/blob/main/img/zshop-qr.png?raw=true)
 
+---
+
+To see a compatibility list, check [here.](https://www.google.com/)
+
+Check out our socials:
+</br>
+Twitter - [@zshop-ctr](https://www.twitter.com/)
+
 [^1]: Because the O3DS models are unable to run the SNES Virtual Console, a download for a RetroArch forwarder will also be available.
 [^2]: These games are not emulated, much like the GBA Virtual Console. In order to run these games, you will need to install the YANBForwarder Pack from Universal-Updater.
 [^3]: These games are recommended for N3DS models only. Playing these on O3DS models will result in severe slowdown.
