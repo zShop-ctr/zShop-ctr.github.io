@@ -7,8 +7,8 @@ The repository used for the zShop official site.
 # What is zShop?
 zShop is a work-in-progress database of custom Virtual Console injects, spanning a variety of supported consoles.
 
-# What platforms is zShop on?
-Currently, our services are only available on the Nintendo 3DS family of systems. We are currently working to support the Nintendo Wii. We also have future plans to support the Nintendo Wii U and the Nintendo Switch.
+# What platforms are zShop on?
+Currently, our services are only available on the Nintendo 3DS family of systems. However, we are working to support the Nintendo Wii. We also have future plans to support the Nintendo Wii U and the Nintendo Switch.
 
 # What consoles are supported?
 For the **Nintendo 3DS** family of systems, you will find:
