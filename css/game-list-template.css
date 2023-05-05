@@ -1,0 +1,78 @@
+/* Reset styles */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+/* Set global styles */
+body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #333;
+}
+
+a {
+	color: #333;
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+/* Header styles */
+header {
+	background-color: #f1f1f1;
+	padding: 20px;
+}
+
+nav ul {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+nav li {
+	margin: 0 10px;
+}
+
+nav a {
+	padding: 5px;
+}
+
+/* Games styles */
+.games {
+	padding: 40px;
+}
+
+.games h2 {
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+.game {
+	display: flex;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.game img {
+	width: 50px;
+	height: 50px;
+	object-fit: cover;
+	margin-right: 10px;
+}
+
+.game h3 {
+	font-size: 18px;
+	margin: 0;
+}
+
+/* Footer styles */
+footer {
+	background-color: #f1f1f1;
+	padding: 20px;
+	text-align: center;
+}
