@@ -1,0 +1,168 @@
+/* Reset styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+}
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  header {
+    background-color: #e60012;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  #logo img {
+    height: 40px;
+  }
+  
+  #search {
+    display: flex;
+    align-items: center;
+  }
+  
+  #search input {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 10px;
+  }
+  
+  #search button {
+    background-color: #fff;
+    color: #e60012;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+  }
+  
+  nav ul li a:hover {
+    background-color: #fff;
+    color: #e60012;
+  }
+  
+  main {
+    padding: 40px 0;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  section h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 75px;
+    text-align: center;
+  }
+  
+  section ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin-bottom: 50px;
+  }
+  
+  section ul li {
+    width: calc(33.33% - 20px);
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  
+  section ul li:last-child {
+    margin-right: 0;
+  }
+  
+  section ul li a {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+  }
+  
+  section ul li a:hover {
+    opacity: 0.8;
+  }
+  
+  section ul li img {
+    height: 200px;
+    margin-bottom: 10px;
+  }
+  
+  section ul li h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  section ul li .original-price {
+    text-decoration: line-through;
+    font-size: 14px;
+    color: #999;
+    margin-right: 10px;
+  }
+  
+  section ul li .discount-price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #e60012;
+  }
+  
+  footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  footer p {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  footer ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  footer ul li {
+    margin-right: 20px;
+  }
+  
+  footer ul li a {
+    color: #666;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  footer ul li a:hover {
+    color: #e60012;
+  }

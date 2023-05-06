@@ -1,82 +1,107 @@
 /* Reset styles */
 * {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
-}
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+  }
 
-/* Set global styles */
-body {
-	font-family: Arial, sans-serif;
-	font-size: 16px;
-	line-height: 1.5;
-	color: #333;
-}
-
-a {
-	color: #333;
-	text-decoration: none;
-}
-
-ul {
-	list-style: none;
-}
-
-/* Header styles */
-header {
-	background-color: #f1f1f1;
-	padding: 20px;
-}
-
-nav ul {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-nav li {
-	margin: 0 10px;
-}
-
-nav a {
-	padding: 5px;
-}
-
-/* Games styles */
-.games {
-	/*padding: 40px; */
-}
-
-.games {
+  .container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
     text-align: center;
-}
+    align-items: center;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #e60012;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  header a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Navigation styles */
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Main styles */
+  main {
+    background-color: #f2f2f2;
+    padding: 20px 0;
+    align-items: center;
+  }
+  
+  h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 80px;
+  }
+  
+  .games-list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .games-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .games-list li {
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+  }
 
-.games h2 {
-	font-size: 24px;
-	margin-bottom: 20px;
-}
+  .games-list li div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .games-list li img:first-child {
+    margin-right: 10px;
+  }
 
-.game {
-	display: flex;
-	align-items: center;
-	margin-bottom: 20px;
-}
-
-.game img {
-	width: 50px;
-	height: 50px;
-	object-fit: cover;
-	margin-right: 10px;
-}
-
-.game h3 {
-	font-size: 18px;
-	margin: 0;
-}
-
-/* Footer styles */
-footer {
-	background-color: #f1f1f1;
-	padding: 20px;
-	text-align: center;
-}
+  .games-list li img:last-child {
+    padding-left: 10px;
+  }
+  
+  .games-list li h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .platform-logo {
+    margin-left: auto;
+  }
+  
