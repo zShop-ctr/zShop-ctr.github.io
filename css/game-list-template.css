@@ -44,7 +44,11 @@ nav a {
 
 /* Games styles */
 .games {
-	padding: 40px;
+	/*padding: 40px; */
+}
+
+.games {
+    text-align: center;
 }
 
 .games h2 {

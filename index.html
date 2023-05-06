@@ -1,80 +1,101 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>zShop Official Site - CTR Server</title>
-	<link rel="stylesheet" href="/css/style.css">
-    <meta name="twitter:site" content="@zShop_ctr">
-    <meta property="og:type" content="website">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
-    <link rel="apple-touch-icon" sizes="100x100" href="https://github.com/zShop-ctr/zShop-ctr.github.io/blob/main/img/zshop-icon-lowres.png?raw=true">
-    <link rel="icon" type="image/png" sizes="32x32" href="https://github.com/zShop-ctr/zShop-ctr.github.io/blob/main/img/zshop-icon.png?raw=true">
-    <link rel="icon" type="image/png" sizes="16x16" href="https://github.com/zShop-ctr/zShop-ctr.github.io/blob/main/img/zshop-icon.png?raw=true">
-    <link rel="shortcut icon" href="https://github.com/zShop-ctr/zShop-ctr.github.io/blob/main/img/zshop-icon.png?raw=true">
-    <meta name="description" content="The home for high-quality custom injects for a variety of consoles.">
-    <link rel="canonical" href="https://zshop-ctr.github.io/">
-</head>
-<body>
-	<header>
-		<nav>
-			<ul>
-				<li><a href="#">Home</a></li>
-				<li><a href="/pages/nes-game-list.html">Games</a></li>
-				<li><a href="#">Consoles</a></li>
-				<li><a href="#">Accessories</a></li>
-				<li><a href="#">Deals</a></li>
-				<li><a href="#">Support</a></li>
-			</ul>
-		</nav>
-	</header>
-	<main>
-		<section class="banner">
-			<h1>Welcome to zShop.</h1>
-			<p>The one-stop shop for a growing variety of Virtual Console games.</p>
-		</section>
-		<section class="featured">
-			<h2>Featured Games</h2>
-			<div class="games">
-				<div class="game">
-					<img src="game1.jpg" alt="Game 1">
-					<h3>Game 1</h3>
-					<p>$49.99</p>
-				</div>
-				<div class="game">
-					<img src="game2.jpg" alt="Game 2">
-					<h3>Game 2</h3>
-					<p>$59.99</p>
-				</div>
-				<div class="game">
-					<img src="game3.jpg" alt="Game 3">
-					<h3>Game 3</h3>
-					<p>$39.99</p>
-				</div>
-			</div>
-		</section>
-		<section class="new-releases">
-			<h2>New Releases</h2>
-			<div class="games">
-				<div class="game">
-					<img src="game4.jpg" alt="Game 4">
-					<h3>Game 4</h3>
-					<p>$49.99</p>
-				</div>
-				<div class="game">
-					<img src="game5.jpg" alt="Game 5">
-					<h3>Game 5</h3>
-					<p>$59.99</p>
-				</div>
-				<div class="game">
-					<img src="game6.jpg" alt="Game 6">
-					<h3>Game 6</h3>
-					<p>$39.99</p>
-				</div>
-			</div>
-		</section>
-	</main>
-	<footer>
-		<p>&copy; 2023 My Online Digital Store</p>
-	</footer>
-</body>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>zShop - CTR Server</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div id="logo">
+          <img src="nintendo_logo.png" alt="zShop">
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Popular</a></li>
+            <li><a href="/pages/all-games.html">All Games</a></li>
+            <li><a href="#">Genres</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <section id="new-releases">
+          <h2>New Releases</h2>
+          <ul>
+            <li>
+              <a href="#">
+                <img src="game1.jpg" alt="Game Title 1">
+                <h3>Game Title 1</h3>
+                <span>$49.99</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="game2.jpg" alt="Game Title 2">
+                <h3>Game Title 2</h3>
+                <span>$59.99</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="game3.jpg" alt="Game Title 3">
+                <h3>Game Title 3</h3>
+                <span>$39.99</span>
+              </a>
+            </li>
+          </ul>
+        </section>
+        <section id="best-sellers">
+          <h2>Popular</h2>
+          <ul>
+            <li>
+              <a href="#">
+                <img src="game4.jpg" alt="Game Title 4">
+                <h3>Game Title 4</h3>
+                <span>$29.99</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="game5.jpg" alt="Game Title 5">
+                <h3>Game Title 5</h3>
+                <span>$19.99</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="game6.jpg" alt="Game Title 6">
+                <h3>Game Title 6</h3>
+                <span>$49.99</span>
+              </a>
+            </li>
+          </ul>
+        </section>
+        <section id="genres">
+          <h2>Genres</h2>
+          <ul>
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Adventure</a></li>
+            <li><a href="#">RPG</a></li>
+            <li><a href="#">Simulation</a></li>
+            <li><a href="#">Sports</a></li>
+          </ul>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <div class="container">
+        <p>&copy; 2023 Nintendo. All Rights Reserved.</p>
+        <ul>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
 </html>
