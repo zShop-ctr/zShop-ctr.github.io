@@ -58,6 +58,7 @@ body {
     color: #fff;
     text-decoration: none;
     padding: 20px;
+    font: bold;
   }
   
   nav ul li a:hover {
