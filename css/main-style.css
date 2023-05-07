@@ -25,6 +25,10 @@ body {
     justify-content: space-between;
   }
   
+#logo {
+  align-items: left;
+}
+
   #logo img {
     height: 40px;
   }
